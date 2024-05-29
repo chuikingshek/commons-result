@@ -10,6 +10,7 @@
         or an unexpected value of type E.
         Result is never valueless.
     </description>
+    <url>https://github.com/chuikingshek/commons-result</url>
 
     <licenses>
         <license>
