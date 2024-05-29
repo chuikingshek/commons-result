@@ -1,0 +1,1 @@
+package com.github.chuikingshek.commons.result;

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Commons Result</name>
+    <description>The Commons Result library provides a way to store either of two values.
+        An object of Result at any given time either holds an expected value of type T,
+        or an unexpected value of type E.
+        Result is never valueless.
+    </description>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/license/mit</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>璀境石</name>
+            <email>chuikingshek@outlook.com</email>
+            <organization>chuikingshek</organization>
+            <organizationUrl>https://github.com/chuikingshek</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com:chuikingshek/commons-result.git</connection>
+        <developerConnection>scm:git:ssh://github.com:chuikingshek/commons-result.git</developerConnection>
+        <url>https://github.com/chuikingshek/commons-result</url>
+    </scm>
+
+    <groupId>com.github.chuikingshek</groupId>
+    <artifactId>commons-result</artifactId>
+    <version>0.1.0</version>
+
+    <properties>
+        <java.version>21</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
+        <encoding>UTF-8</encoding>
+        <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
