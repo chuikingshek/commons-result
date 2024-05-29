@@ -34,7 +34,7 @@
         <url>https://github.com/chuikingshek/commons-result</url>
     </scm>
 
-    <groupId>com.github.chuikingshek</groupId>
+    <groupId>io.github.chuikingshek</groupId>
     <artifactId>commons-result</artifactId>
     <version>0.1.0</version>
 

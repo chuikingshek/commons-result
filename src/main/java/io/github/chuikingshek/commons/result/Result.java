@@ -1,4 +1,4 @@
-package com.github.chuikingshek.commons.result;
+package io.github.chuikingshek.commons.result;
 
 import org.intellij.lang.annotations.Flow;
 import org.jetbrains.annotations.Contract;
